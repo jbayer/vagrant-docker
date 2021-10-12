@@ -75,16 +75,17 @@ Restart docker:
 ### Step 3 - Build a Docker executable for Mac
 
 The docker binary for Mac is distributed as part of the Docker Desktop package 
-and is readily found prebuilt as a standalone binary. You can also compile it 
-on your own with [these steps](https://www.reddit.com/r/docker/comments/mooiqh/install_cli_only_on_mac/). Someone in you organization could do this step and distribute the binary to others since 
-compling it yourself is a bit much to expect for every developer to do on their 
-own.
+and is not readily found prebuilt as a standalone binary. You may also compile it 
+on your own with [these steps](https://www.reddit.com/r/docker/comments/mooiqh/install_cli_only_on_mac/). 
+Someone in you organization could do this step and distribute the binary to 
+others since compling it yourself is a bit much to expect for every developer 
+to do on their own.
 
 You may perform these steps in the Linux guest if you do not have access to a 
 docker executable for Mac. Using the `vagrant ssh` command from your host will 
 give you a prompt.
 
-Clone the repo somewhere, I did these steps in the `/tmp` directory: 
+Clone the docker cli repo somewhere, I did these steps in the `/tmp` directory: 
 
 `git clone https://github.com/docker/cli.git`
 
