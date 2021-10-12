@@ -16,6 +16,7 @@ started using Docker, I used virtual machines and it worked pretty well. So I
 wanted to see how close I could get to a good experience. 
 
 I want a local docker executable on my Mac terminal to `Just work.` :tm: 
+
 I am happy with the results. Using this approach, running docker locally is as 
 simple as `vagrant up` followed by using `docker` commands directly in my 
 host shell.
