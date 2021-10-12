@@ -31,7 +31,7 @@ between the host (say a Mac) and the Linux guest.
 
 Vagrant supports a [Docker Provisioner](https://www.vagrantup.com/docs/provisioning/docker) 
 that installs Docker into a Virtual Machine. I tried Ubuntu 20.04 as the guest 
-image (Thanks Chef Bento project~). Notably, the `bento` Vagrant box had all of 
+image (Thanks Chef Bento project!). Notably, the `bento` Vagrant box had all of 
 the base requirements to do file sharing between the host and the guest. Some 
 other Ubuntu Vagrant boxes I tried did not work with file sharing.
 
